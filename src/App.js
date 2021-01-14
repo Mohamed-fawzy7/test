@@ -1,24 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import DiceApp from './DiceApp';
+import Lottery from './Lottery';
+import CoinFlipper from './CoinFlipper';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        {/* <DiceApp /> */}
+        {/* <Lottery />
+        <Lottery title="mini daily" numBalls={4} maxNum={10}/> */}
+        <CoinFlipper />
+    </div> 
   );
 }
 

@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.animate{
+    color: red;
+}
+span{
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 5px;
+}
